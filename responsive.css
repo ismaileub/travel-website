@@ -2,19 +2,40 @@
     body{
         margin: 0 20px;
     }
-    .nav-aongcor, .button-div {
+    main, header {
+        margin: 0 ;
+    }
+    .nav-aongcor, .button-div, .Popular-Tours-content {
         flex-direction: column;
     }
     
     nav{
         height: 50px;
     }
-    .header-item h1 {
+    .header-item h1{
         width: 100%;
         font-size: 40px;
     }
     .button-div{
         margin: 0 auto;
         width: 210px;
+    }
+    .Popular-Tours-content .img, 
+    .Popular-Tours-content .text {
+        width: 100%;
+    }
+    .destination h1{
+        font-size: 30px;
+    }
+    .places{
+        grid-template-areas: 
+        "place-1" 
+        "place-2" 
+        "place-3" 
+        "place-4" 
+        "place-5" 
+        "place-6" 
+        "place-7" 
+        ;
     }
 }
