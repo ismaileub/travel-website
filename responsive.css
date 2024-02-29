@@ -1,0 +1,20 @@
+@media screen and (max-width:576px) {
+    body{
+        margin: 0 20px;
+    }
+    .nav-aongcor, .button-div {
+        flex-direction: column;
+    }
+    
+    nav{
+        height: 50px;
+    }
+    .header-item h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+    .button-div{
+        margin: 0 auto;
+        width: 210px;
+    }
+}
