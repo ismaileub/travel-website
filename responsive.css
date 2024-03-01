@@ -1,41 +1,86 @@
 @media screen and (max-width:576px) {
-    body{
+    body {
         margin: 0 20px;
     }
-    main, header {
-        margin: 0 ;
+
+    main,
+    header {
+        margin: 0;
     }
-    .nav-aongcor, .button-div, .Popular-Tours-content {
+
+    .nav-aongcor,
+    .button-div,
+    .Popular-Tours-content,
+    .demo,
+    .newsletter {
         flex-direction: column;
     }
-    
-    nav{
+
+    nav {
         height: 50px;
     }
-    .header-item h1{
+
+    .header-item h1 {
         width: 100%;
         font-size: 40px;
     }
-    .button-div{
+
+    .button-div {
         margin: 0 auto;
         width: 210px;
     }
-    .Popular-Tours-content .img, 
-    .Popular-Tours-content .text {
+
+    .Popular-Tours-content .img,
+    .Popular-Tours-content .text,
+    .demo-video,
+    .demo-text,
+    .newsletter-content,
+    .newsletter-img {
         width: 100%;
     }
-    .destination h1{
+
+    .destination h1 {
         font-size: 30px;
     }
-    .places{
-        grid-template-areas: 
-        "place-1" 
-        "place-2" 
-        "place-3" 
-        "place-4" 
-        "place-5" 
-        "place-6" 
-        "place-7" 
+
+    .places {
+        grid-template-areas:
+            "place-1"
+            "place-2"
+            "place-3"
+            "place-4"
+            "place-5"
+            "place-6"
+            "place-7"
         ;
     }
+    .newsletter-img .card{
+        top: 70%;
+        width: 280px;
+    }
+    .discount{
+        padding: 10px;
+        justify-content: center;
+        align-items: end;
+        height: 600px;
+        /* width: 100%; */
+
+    }
+    .discount-content{
+        height: 70%;
+        width: 95%;
+        padding: 10px;
+    }
+    .discount-content span{
+        flex-basis: 100%;
+    }
+    .discount-content .fonts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .features-description p{
+        margin: 5px 0;
+    }
+    
 }
