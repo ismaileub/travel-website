@@ -125,7 +125,8 @@ span {
     line-height: 25px;
     margin: 20px 0;
 }
-header .fa-solid{
+
+header .fa-solid {
     display: none;
 
 }
@@ -300,7 +301,7 @@ header .fa-solid{
     padding: 32px;
 }
 
-.discount{
+.discount {
     height: 500px;
     background-image: url('./Images/Group39.png');
     background-repeat: no-repeat;
@@ -311,10 +312,10 @@ header .fa-solid{
     justify-content: right;
     padding: 56px;
     margin-bottom: 20px;
-    
+
 }
 
-.discount-content{
+.discount-content {
     border: 2px solid #FF5400;
     width: 48%;
     display: flex;
@@ -377,11 +378,23 @@ header .fa-solid{
 .demo-video {
     width: 50%;
     /* min-height: 400px; */
+    position: relative;
 }
 
 video {
     height: 100%;
     border-radius: 10px;
+}
+
+.demo-video h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
 }
 
 .demo-text h1 {

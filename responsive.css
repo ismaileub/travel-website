@@ -88,5 +88,11 @@
     .features-description p{
         margin: 5px 0;
     }
+    .demo-video h4{
+        top: 30%;
+        left: 10%;
+        right: 10%;
+
+    }
     
 }
