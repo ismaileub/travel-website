@@ -62,7 +62,7 @@
     }
     .newsletter-img .card{
         top: 70%;
-        width: 280px;
+        width: 50%;
     }
     .discount{
         padding: 10px;
@@ -94,7 +94,7 @@
         right: 10%;
 
     }
-    #discount{
+    #special{
         justify-content: center !important; 
     }
     
