@@ -125,6 +125,10 @@ span {
     line-height: 25px;
     margin: 20px 0;
 }
+header .fa-solid{
+    display: none;
+
+}
 
 .Popular-Tours-content {
     min-height: 350px;
