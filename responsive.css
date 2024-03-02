@@ -94,5 +94,8 @@
         right: 10%;
 
     }
+    #discount{
+        justify-content: center !important; 
+    }
     
 }
